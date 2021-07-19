@@ -9,7 +9,7 @@ What it does:
 
 It will scan IaC project directories or directories which contain IaC files and output the results in a csv report if you'd like. It will also create an entry for the scan in the Prisma Cloud Enterprise Edition Console under Inventory > DevOps
 
-## Install instructions for Ubuntu 20.04
+### Install instructions for Ubuntu 20.04
 
 
 * Step 1: Install jq `sudo apt-get install jq`  - link to cve https://www.cvedetails.com/product/33780/Jq-Project-JQ.html?vendor_id=15837
@@ -25,7 +25,7 @@ To uninstall:
 `bash pcee_iac_gui_it_tool/uninstall_ubuntu_20_04_iac_gui_desktop_tool.sh`
 
 
-## Install instructions for MacOS
+### Install instructions for MacOS
 
 
 * Step 1: Install jq `brew install jq` - link to cve https://www.cvedetails.com/product/33780/Jq-Project-JQ.html?vendor_id=15837
