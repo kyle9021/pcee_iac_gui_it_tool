@@ -401,7 +401,12 @@ fi
 if [[ "${pcee_scan_status}" == "processing" ]]; then
         pcee_iac_processing_wait
 fi
-
+if [[ "${pcee_scan_status}" == "processing" ]]; then
+        pcee_iac_processing_wait
+fi
+if [[ "${pcee_scan_status}" == "processing" ]]; then
+        pcee_iac_processing_wait
+fi
 
 # retrives the results
 pcee_iac_results=$(curl -s --request GET \
