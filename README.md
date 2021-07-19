@@ -34,6 +34,7 @@ To uninstall:
 
 `bash pcee_iac_gui_it_tool/uninstall_ubuntu_20_04_iac_gui_desktop_tool.sh`
 
+Notes: The install script is made to only install it for the user running the script. You can modify the install script as needed. It should work with any debian based linux distro. It shoould also work with RHEL, but the package manager will require `yum` instead of `apt`. I'd double check that the file locations good for RHEL. You can also optionally hardcode your prisma_api_url, access_key, and secret_key into the script if you'd like. Just ensure you secure your script/app properly after doing so. `chmod 700` add to .gitignore file. Etc. 
 
 ### Install instructions for MacOS
 
