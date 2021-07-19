@@ -1,11 +1,11 @@
 # IaC Scanning Tool for IT
 [![CodeFactor](https://www.codefactor.io/repository/github/kyle9021/pcee_iac_gui_it_tool/badge)](https://www.codefactor.io/repository/github/kyle9021/pcee_iac_gui_it_tool)
 
-Purpose:
+## Purpose:
 
 I wrote this tool for the IT community who are actively working with IaC files and who have access to a instance of Prisma Cloud Enterprise. This avoids the need to install docker, manage python libraries, or even use the terminal. Simple implementations, without the risk of additional libraries or software. The only dependencies are jq and zenity. Both of which have no known vulnerabilies. I've come up with install instructions for MacOS and Ubuntu 20.04. I will be adding other distributions and OS's based on feedback. 
 
-What it does: 
+## What it does: 
 
 It will scan IaC project directories or directories which contain IaC files and output the results in a csv report if you'd like. It will also create an entry for the scan in the Prisma Cloud Enterprise Edition Console under Inventory > DevOps
 
