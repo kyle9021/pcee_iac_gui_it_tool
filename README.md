@@ -12,7 +12,7 @@ It will scan IaC project directories or directories which contain IaC files and 
 ### Install instructions for Ubuntu 20.04
 
 
-* Step 1: Install jq `sudo apt-get install jq`  - link to cve https://www.cvedetails.com/product/33780/Jq-Project-JQ.html?vendor_id=15837
+* Step 1: Install jq `sudo apt-get install jq`  - [link to cve](https://www.cvedetails.com/product/33780/Jq-Project-JQ.html?vendor_id=15837)
 * Step 2: Download code: `git clone https://github.com/Kyle9021/pcee_iac_gui_it_tool/`
 * Step 3: `bash pcee_iac_gui_it_tool/install_ubuntu_20_04_iac_gui_desktop_tool.sh`
 * Step 4: Right click the shortcut on your desktop and select `Allow Launching`
@@ -28,7 +28,7 @@ To uninstall:
 ### Install instructions for MacOS
 
 
-* Step 1: Install jq `brew install jq` - link to cve https://www.cvedetails.com/product/33780/Jq-Project-JQ.html?vendor_id=15837
+* Step 1: Install jq `brew install jq` - [link to cve](https://www.cvedetails.com/product/33780/Jq-Project-JQ.html?vendor_id=15837)
 * Step 2: Install zenity `brew install zenity` - no known vulnerabilies do a google search zenity vulnerabilities.
 * Step 3: Download code: `git clone https://github.com/Kyle9021/pcee_iac_gui_it_tool/`
 * Step 4: `cp pcee_iac_gui_it_tool/mac_iac_gui.sh $HOME/mac_iac_gui.sh` 
