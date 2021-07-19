@@ -66,6 +66,6 @@ Put the app into the trash and empty it.
 
 ## Public Terraform Directories to test your new tool on:
 
-`git clone https://github.com/bridgecrewio/terragoat`
-`git clone https://github.com/cloudposse/terraform-aws-jenkins`
-`git clone https://github.com/cloudfoundry-community/terraform-aws-cf-install`
+* `git clone https://github.com/bridgecrewio/terragoat`
+* `git clone https://github.com/cloudposse/terraform-aws-jenkins`
+* `git clone https://github.com/cloudfoundry-community/terraform-aws-cf-install`
