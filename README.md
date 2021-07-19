@@ -9,6 +9,12 @@ I wrote this tool for the IT community who are actively working with IaC files a
 
 It will scan IaC project directories or directories which contain IaC files and output the results in a csv report if you'd like. It will also create an entry for the scan in the Prisma Cloud Enterprise Edition Console under Inventory > DevOps
 
+## Theoretical Operationalization for an organization:
+
+To answer this topic, here's my theory based on working with IT for a number of years. If you're an average IT person and the organization you're with is stepping into the cloud. You may be asked to deploy terraform files. You'll learn the commands you need to survive such as: `terraform apply/init/delete`. Of course if things go wrong. You'll need to contact the developer who wrote the files to correct them. But maybe since you're in IT/Security you want to ensure you know the vulnerabilies that could potentially be introduced to your new CSP enviornment. So you run the project directory through this tool before you perform a `terraform apply`. If vulnerabilies are located you can provide actionable intelligence back to your dev team with the exact cause, line of code, and resource which caused the vulnerability to be discovered. Once you've sent this information to the dev team a few times through the csv file report that's created. They might be interested in getting this process into their CI/CD workflow. We've plenty of documentation and tools on how to go about doing that...this isn't that. 
+
+This is for you to look out for the security of your organization and to ensure your team understands the vulnerabilites that can be introduced by deploying IaC files into a production cloud enviornment. This is to save you hours of time figuring out what not to do. This is meant to be simple and straightforward. Easily used again and again by your average IT person to bring about DevSecOps, or at least start the conversation. Good luck!
+
 ### Install instructions for Ubuntu 20.04
 
 
