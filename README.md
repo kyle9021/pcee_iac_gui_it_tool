@@ -7,7 +7,7 @@ I wrote this tool for the IT community who are actively working with IaC files a
 
 What it does: 
 
-It will scan IaC project directories or directories which contain IaC files and output the results in a csv report if you'd like. It will also create an entry for the scan in the Prisma Cloud Enterprise Edition Console. 
+It will scan IaC project directories or directories which contain IaC files and output the results in a csv report if you'd like. It will also create an entry for the scan in the Prisma Cloud Enterprise Edition Console under Inventory > DevOps
 
 ## Install instructions for Ubuntu 20.04
 
