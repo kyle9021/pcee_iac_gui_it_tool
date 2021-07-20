@@ -3,10 +3,10 @@
 
 if [[ "$DESKTOP_SESSION" == "ubuntu" ]]; then
      sudo chmod 755 ./iac_script.sh
-     sudo cp ./iac_test.sh /usr/local/bin/iac_script
-     sudo cp ./prisma_icon.jpeg /home/$USER/Documents/prisma_icon.jpeg
+     sudo cp pcee_iac_gui_it_tool/iac_test.sh /usr/local/bin/iac_script
+     sudo cp /prisma_icon.jpeg /home/$USER/Documents/prisma_icon.jpeg
      sudo chmod 755 /home/$USER/Documents/prisma_icon.jpeg
-     touch /home/$USER/Desktop/Prisma_IT_IaC_Scan_Tool.desktop
+     touch /home/$USER/pcee_iac_gui_it_tool/Prisma_IT_IaC_Scan_Tool.desktop
      printf '%s\n' "[Desktop Entry]" >> /home/$USER/Desktop/Prisma_IT_IaC_Scan_Tool.desktop
      printf '%s\n' "Type=Application" >> /home/$USER/Desktop/Prisma_IT_IaC_Scan_Tool.desktop
      printf '%s\n' "Terminal=false" >> /home/$USER/Desktop/Prisma_IT_IaC_Scan_Tool.desktop
