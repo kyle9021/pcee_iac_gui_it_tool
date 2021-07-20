@@ -2,7 +2,7 @@
 
 
 if [[ "$DESKTOP_SESSION" == "ubuntu" ]]; then
-     sudo chmod 755 ./iac_script.sh
+     sudo chmod 755 pcee_iac_gui_it_tool/iac_script.sh
      sudo cp pcee_iac_gui_it_tool/iac_script.sh /usr/local/bin/iac_script
      sudo cp pcee_iac_gui_it_tool/prisma_icon.jpeg /home/$USER/Documents/prisma_icon.jpeg
      sudo chmod 755 /home/$USER/Documents/prisma_icon.jpeg
