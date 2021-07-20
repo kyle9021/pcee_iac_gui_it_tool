@@ -21,7 +21,7 @@ This is for you to look out for the security of your organization and to ensure 
 
 ### Install instructions for Ubuntu 20.04
 
-* Step 0: Install git `sudo apt install git`
+* Step 0: Install git `sudo apt install git` - [link to cve](https://www.cvedetails.com/vulnerability-list/vendor_id-4008/GIT.html) You could copy the raw files out if you'd prefer not install git. Just ensure you place the files into a directory named the same (if you want to have documentation)
 * Step 1: Install jq `sudo apt-get install jq`  - [link to cve](https://www.cvedetails.com/product/33780/Jq-Project-JQ.html?vendor_id=15837)
 * Step 2: Download code: `git clone https://github.com/Kyle9021/pcee_iac_gui_it_tool/`
 * Step 3: `bash pcee_iac_gui_it_tool/install_ubuntu_20_04_iac_gui_desktop_tool.sh`
@@ -38,7 +38,7 @@ Notes: The install script is made to only install it for the user running the sc
 
 ### Install instructions for MacOS
 
-* Step 0: Install git `brew install git`
+* Step 0: Install git `brew install git` [link to cve](https://www.cvedetails.com/vulnerability-list/vendor_id-4008/GIT.html) You could copy the raw files out if you'd prefer not install git. Just ensure you place the files into a directory named the same (if you want to have documentation)
 * Step 1: Install jq `brew install jq` - [link to cve](https://www.cvedetails.com/product/33780/Jq-Project-JQ.html?vendor_id=15837)
 * Step 2: Install zenity `brew install zenity` - no known vulnerabilies do a google search zenity vulnerabilities.
 * Step 3: Download code: `git clone https://github.com/Kyle9021/pcee_iac_gui_it_tool/`
