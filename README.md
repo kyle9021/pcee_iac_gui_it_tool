@@ -1,4 +1,4 @@
-# IaC Scanning Tool for IT
+# IaC Scanning Tool for IT -  CONFIRMED WORKING JULY 20 - Please ensure your copy is after this date
 [![CodeFactor](https://www.codefactor.io/repository/github/kyle9021/pcee_iac_gui_it_tool/badge)](https://www.codefactor.io/repository/github/kyle9021/pcee_iac_gui_it_tool)
 
 ## Purpose:
