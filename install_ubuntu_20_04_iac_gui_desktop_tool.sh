@@ -10,7 +10,7 @@ if [[ "$DESKTOP_SESSION" == "ubuntu" ]]; then
      printf '%s\n' "[Desktop Entry]" >> /home/$USER/Desktop/Prisma_IT_IaC_Scan_Tool.desktop
      printf '%s\n' "Type=Application" >> /home/$USER/Desktop/Prisma_IT_IaC_Scan_Tool.desktop
      printf '%s\n' "Terminal=false" >> /home/$USER/Desktop/Prisma_IT_IaC_Scan_Tool.desktop
-     printf '%s\n' "Name=Test-Tool" >> /home/$USER/Desktop/Prisma_IT_IaC_Scan_Tool.desktop
+     printf '%s\n' "Name=Prisma_IaC_Scan_Tool" >> /home/$USER/Desktop/Prisma_IT_IaC_Scan_Tool.desktop
      printf '%s\n' "Icon=/home/$USER/Documents/prisma_icon.jpeg" >> /home/$USER/Desktop/Prisma_IT_IaC_Scan_Tool.desktop
      printf '%s\n' "Exec=/usr/local/bin/iac_script" >> /home/$USER/Desktop/Prisma_IT_IaC_Scan_Tool.desktop
      sudo chmod 755 /home/$USER/Desktop/Prisma_IT_IaC_Scan_Tool.desktop
