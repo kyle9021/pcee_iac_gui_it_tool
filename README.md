@@ -2,6 +2,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/kyle9021/pcee_iac_gui_it_tool/badge)](https://www.codefactor.io/repository/github/kyle9021/pcee_iac_gui_it_tool)
 
 ## Purpose:
+NOTE: If you've already embraced DevOps this tool isn't for you. :) 
 
 I wrote this tool for the IT community who are actively working with IaC files and who have access to an instance of Prisma Cloud Enterprise. This avoids the need to install docker, manage python libraries, or even use the terminal (after install). Simple implementations, without the risk of additional libraries or software. The only dependencies are jq and zenity. Both of which have no known vulnerabilies. I've come up with install instructions for MacOS and Ubuntu 20.04. I will be adding other distributions and OS's based on feedback. 
 
